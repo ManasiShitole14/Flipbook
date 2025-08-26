@@ -29,7 +29,7 @@ const BookCover = React.forwardRef((props, ref) => {
       <p className="absolute z-10 
         left-6 sm:left-12 md:left-[100px] lg:left-[150px] xl:left-[180px] 
         top-[calc(33%+70px)] text-base sm:text-lg md:text-xl italic text-slate-200 drop-shadow-md">
-        A Flipping Portfolio by Manasi
+        A Flipping Portfolio by Manasiiiiiiiiiii
       </p>
 
       {/* ✅ Hover & Click Instruction (Bottom Left, no animation) */}
