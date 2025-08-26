@@ -7,13 +7,12 @@ const BookCover = React.forwardRef((props, ref) => {
       className="relative w-screen h-screen text-black overflow-hidden font-serif bg-[#0a1930]"
     >
       {/* ✅ Background Image */}
-      <img
+      {/* <img
         src="/background.png"
         alt="Background"
         className="absolute w-screen h-full object-fill object-center z-0"
       />
 
-      {/* ✅ Title and Reflection */}
       <div className="absolute text-center z-10 
         left-6 sm:left-12 md:left-[100px] lg:left-[150px] xl:left-[180px] 
         top-[28%] sm:top-[30%]">
@@ -25,17 +24,15 @@ const BookCover = React.forwardRef((props, ref) => {
         </h1>
       </div>
 
-      {/* ✅ Tagline */}
       <p className="absolute z-10 
         left-6 sm:left-12 md:left-[100px] lg:left-[150px] xl:left-[180px] 
         top-[calc(33%+70px)] text-base sm:text-lg md:text-xl italic text-slate-200 drop-shadow-md">
         A Flipping Portfolio by Manasiii
       </p>
 
-      {/* ✅ Hover & Click Instruction (Bottom Left, no animation) */}
       <p className="absolute bottom-8 left-8 z-10 text-sm sm:text-base md:text-lg text-slate-100 italic tracking-wide drop-shadow-sm">
         Hover to discover. Click to turn the story.
-      </p>
+      </p> */}
     </div>
   );
 });
