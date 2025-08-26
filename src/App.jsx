@@ -33,9 +33,9 @@ function App() {
     bookRef.current.pageFlip().flipNext();
   };
 
-  const handlePrev = () => {
-    bookRef.current.pageFlip().flipPrev();
-  };
+  // const handlePrev = () => {
+  //   bookRef.current.pageFlip().flipPrev();
+  // };
 
   return (
     <div className="app-container relative w-full h-full overflow-hidden">
@@ -59,7 +59,7 @@ function App() {
           className="drawing-book"
           style={{ boxShadow: "0 0 15px rgba(0,0,0,0.3)" }}
         >
-          {/* <BookCover /> */}
+          <BookCover />
           <IndexPage />
           <AboutPage />
           <SkillsPage />

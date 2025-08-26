@@ -7,7 +7,7 @@ const BookCover = React.forwardRef((props, ref) => {
       className="relative w-screen h-screen text-black overflow-hidden font-serif bg-[#0a1930]"
     >
       {/* ✅ Background Image */}
-      {/* <img
+      <img
         src="/background.png"
         alt="Background"
         className="absolute w-screen h-full object-fill object-center z-0"
@@ -32,7 +32,7 @@ const BookCover = React.forwardRef((props, ref) => {
 
       <p className="absolute bottom-8 left-8 z-10 text-sm sm:text-base md:text-lg text-slate-100 italic tracking-wide drop-shadow-sm">
         Hover to discover. Click to turn the story.
-      </p> */}
+      </p> 
     </div>
   );
 });
